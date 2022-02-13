@@ -88,6 +88,18 @@ export default class Pathfinder extends Component {
                 <button onClick={() => this.refreshPage()}>
                     Clear
                 </button>
+                <button onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://ascw.dev/';
+                }}>
+                    Return To ascw.dev
+                </button>
+                <button onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://github.com/ascwnyc/pathfinder/';
+                }}>
+                    Return To GitHub
+                </button>
                 <div className="grid">
                     {grid.map((row, rowIdx) => {
                         return (

@@ -24,9 +24,44 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <style>
+      div.tutorial {
+        font-family: helvetica;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      li {
+        padding: 5px;
+        margin: 10px;
+        font-size: 16px;
+      }
+      footer {
+        font-family: helvetica;
+        font-size: 12px;
+        font-style: italic;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+      }
+      </style>
+    <title>Pathfinder</title>
   </head>
   <body>
+    <div class="tutorial">
+      <b>Tutorial</b>
+      <li>
+        Click+Drag to add walls that will act as obstacles for the algorithm to get around.
+      </li>
+      <li>
+        Click the "Visualise Dijkstra's Algorithm" button to start the program.
+      </li>
+      <li>
+        Click the "Clear" button to reset the program.
+      </li>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,4 +75,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <footer>
+    Alex Williams, © 2022.
+  </footer>
 </html>
