@@ -69,22 +69,22 @@
 @keyframes visitedAnimation {
   0% {
     transform: scale(0.3);
-    background-color: rgba(0, 0, 66, 0.75);
+    background-color: rgba(42, 112, 145, 0.75);
     border-radius: 100%;
   }
 
   50% {
-    background-color: rgba(17, 104, 217, 0.75);
+    background-color: rgba(70, 181, 255, 0.75);
   }
 
   75% {
     transform: scale(1.2);
-    background-color: rgba(0, 217, 159, 0.75);
+    background-color: rgba(119, 255, 255, 0.75);
   }
 
   100% {
     transform: scale(1);
-    background-color: rgba(0, 190, 218, 0.75);
+    background-color: rgba(73, 197, 255, 0.75);
   }
 }
 
@@ -131,16 +131,16 @@
 @keyframes shortestPath {
   0% {
     transform: scale(0.6);
-    background-color: rgb(106, 255, 151);
+    background-color: rgb(255, 238, 161);
   }
 
   50% {
     transform: scale(1.2);
-    background-color: rgb(255, 254, 106);
+    background-color: rgb(255, 106, 131);
   }
 
   100% {
     transform: scale(1);
-    background-color: rgb(106, 255, 151);
+    background-color: rgb(255, 238, 161);
   }
 }
